@@ -1,0 +1,107 @@
+body {
+    background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: sans-serif;
+font-size: 1.2rem;
+
+}
+.container {
+    max-width: 900px;
+    width: 60vw;
+    height: 80vh;
+    background-color: #fff;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    /* padding: 60px auto; */
+}
+article {
+    width: 70%;
+    /* height: 80%; */
+    
+    height: 80vh;
+}
+/* .container {
+    width: 100vw;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+}
+.item {
+    max-width: 300px;
+    width: 30vw;
+    height: 60vh;
+} */
+
+/* h3, form {
+    margin: 20px auto;
+} */
+
+/* h3, label, input {
+    margin: 10px auto;
+} */
+input[type="email"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    /* margin-top: 15px; */
+}
+#login {
+    background-color: #e11d75;
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 1.2rem;
+}
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    /* margin: 10px; */
+    border-color: grey;
+}
+legend {
+    margin: 0 auto;
+}
+legend p {
+    border: 2px solid #114357;
+    /* padding: 0 auto; */
+    border-color: grey;
+    padding: 10px;
+}
+div.icons {
+    margin: -20px auto;
+}
+.icons ul {
+    max-width: 300px;
+    width: 50%;
+    height: 40px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px auto;
+}
+.icons ul li {
+    list-style-type: none;
+}
+h2 {
+    font-size: 1.5rem;
+    
+}
+
